@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/master','front.layouts.master');
-Route::view('/back','back.layouts.master');
+Route::get('/','HomePageController@index');
+Route::get('category/{id}','HomePageController@adsByCategory');

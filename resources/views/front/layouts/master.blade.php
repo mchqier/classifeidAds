@@ -7,7 +7,7 @@
 		  <meta name="description" content="">
 		  <meta name="author" content="">
 
-		  <title>موقع إعلانات مبوبة</title>
+		  <title>clasifeid ADS website</title>
 
 		  <!-- Bootstrap core CSS -->
 		  <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
@@ -20,15 +20,15 @@
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg fixed-top " style="background-color:#f9f9f9">
 			<div class="container">
-			  <a class="navbar-brand" href="/">موقع إعلانات مبوبة</a>
+			  <a class="navbar-brand" href="/">clasifeid ADS website</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			  </button>
 			  <div class="collapse navbar-collapse" id="navbarResponsive">
 				  <ul class="navbar-nav ml-auto">
 				  </ul>
-					<li class="nav-link"><a href="">دخول</a></li>
-					<li class="nav-link"><a href="">حساب جديد</a></li>
+					<li class="nav-link"><a href="">Login</a></li>
+					<li class="nav-link"><a href="">New account</a></li>
 			  </div>
 			</div>
 		</nav>
@@ -39,23 +39,23 @@
 		 <div class="row">
 			  <div class="col-lg-3 text-right">			  
 				  <h1 class="my-4"></h1>
-				  <div class="list-group ">					
-						<a href="" class="list-group-item">الكترونيات</a>
-						<a href="" class="list-group-item">أثاث</a>
-						<a href="" class="list-group-item">مركبات</a>
+				  <div class="list-group ">	
+					@foreach($items as $item)				
+						<a href="/category/{{$item->id}}" class="list-group-item">{{$item->category_name}}</a>
+					@endforeach
 				  </div>					  
 			  </div>
 			  <!-- /.col-lg-3 -->
 
-			<div class="col-lg-9 text-right">
+			<div class="col-lg-9 text-left">
+		
 			@yield('content')
-			
 		    </div>
 		    <!-- /.col-lg-9 -->
-
+	
 		</div>
 		<!-- /.row -->
-
+		
 	  </div>
 	  <!-- /.container -->
 

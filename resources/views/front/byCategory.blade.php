@@ -1,7 +1,11 @@
-@extends (front.layouts.master)
+@extends ('front.layouts.master')
 
-@section('contetn')
+@section('content')
+                <div class="row">
+					
+					@include ('front.layouts.showimages')
 
-
+				
+				</div>
 
 @endsection

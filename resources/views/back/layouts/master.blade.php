@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>لوحة التحكم</title>
+    <title>Control Panel </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="admin/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">لوحة التحكم</a>
+                <a class="navbar-brand" href="index.html">Control Panel</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -82,39 +82,39 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a class="active" href="/admin/index"><i class="fa fa-dashboard fa-fw"></i> الإحصائيات</a>
+                            <a class="active" href="/admin/index"><i class="fa fa-dashboard fa-fw"></i> statistics</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> المستخدمين<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Users<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="">أضف مستخدم جديد</a>
+                                    <a href="">Add new User</a>
                                 </li>
                                 <li>
-                                    <a href="">استعرض المستخدمين</a>
+                                    <a href="">view Users</a>
                                 </li>
                             </ul>
 
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-files-o fa-fw"></i><span class="fa arrow"></span> الإعلانات</a>
+                            <a href="forms.html"><i class="fa fa-files-o fa-fw"></i><span class="fa arrow"></span> Advertisments</a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="">أضف إعلان جديد</a>
+                                    <a href="">add AD</a>
                                 </li>
                                 <li>
-                                    <a href="">استعرض الإعلانات</a>
+                                    <a href="">view ADS</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> الأقسام<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Categories<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="">استعرض جميع الأقسام</a>
+                                    <a href="">view All Categories</a>
                                 </li>
                                 <li>
-                                    <a href="">أضف قسم جديد</a>
+                                    <a href="">new Category</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
